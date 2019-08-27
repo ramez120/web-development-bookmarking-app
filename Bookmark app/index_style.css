@@ -1,0 +1,63 @@
+h3
+{
+    color: rgb(170, 170, 170);
+    font-weight: 700;
+    font-size: 29.25px;
+    margin: 30px 0px;
+    font-family: arial;
+}
+body{
+   padding: 15px;
+}
+.header-cont
+{
+    border-bottom: solid 1px black;
+}
+h2{
+    
+    
+    font-weight: 700;
+    font-size: 24px;
+    font-family: arial;
+    margin: 20px 0px;
+
+    }
+    .info-cont
+    {
+       background-color: rgb(238, 238, 238);
+        padding: 30px 100px;
+        
+    }
+    p{
+        color: rgb(51, 51, 51);
+        font-weight: 700;
+    font-size: 16px;
+    font-family: arial;
+    margin: 10px 0px;
+    }
+#submit:hover
+{
+    background-color: navy !important;
+    box-shadow: 3px 3px 6px rgb(51, 51, 51);
+}
+#submit
+{
+    background-color: #1167c4 !important;
+  
+}
+#visit
+{
+    margin-right: 5px;
+}
+.bits
+{
+    background-image:linear-gradient(to bottom,rgb(238, 238, 238) , transparent);
+}
+@media screen and (max-width:350px)
+{
+    .info-cont
+    {
+        text-align: left !important;
+    }  
+    
+}
